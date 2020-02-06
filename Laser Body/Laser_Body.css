@@ -1,0 +1,38 @@
+html{
+    width: 100%;
+}
+
+.laser-section h3 {
+    font-family: 'lato';
+   font-weight: 600;
+   justify-content: center;
+   text-align: center;
+   padding-top: 70px;
+   word-spacing: 5px;
+   letter-spacing: 4px;
+}
+
+.gallery{
+    padding-top:70px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    width:90%;
+    justify-content: space-between;
+    
+}
+
+
+
+.image img{
+    width:300px;
+    padding-left: 40px;
+}
+
+.image p {
+    width:400px;
+    padding-left: 40px;
+}
+
+
