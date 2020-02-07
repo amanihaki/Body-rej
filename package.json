@@ -1,0 +1,22 @@
+{
+  "name": "body-rej",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanihaki/Body-rej.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanihaki/Body-rej/issues"
+  },
+  "homepage": "https://github.com/amanihaki/Body-rej#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
