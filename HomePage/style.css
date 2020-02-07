@@ -56,8 +56,9 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
 }
-.top-video {
+#home-page iframe {
   height: 100%;
+  width:50%;
 }
 /**
  * Second Page
@@ -81,20 +82,49 @@ nav ul li a:hover {
 .content-title h2 {
   color: #fad21c;
   font-size: "Lato";
+  letter-spacing: 3px;
 }
-.content-title h5 {
-  font-size: "Lato";
-  font-size: 15px;
+.content-title h3 {
+  font-family: "Lato";
+  font-size: 20px;
   padding: 20px;
+  padding-bottom: 0;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+
+.content-title-p {
+font-family: 'lato';
+font-size:18px;
+line-height: 30px;
+font-weight: lighter;
+}
+
+.content-title h2{
+  color: #fad21c;
+  font-size: "Lato";
+  letter-spacing: 3px;
+  font-weight:500;
+}
+
+.content-title h5{
+  padding-top:15px;
+  font-size:17px;
+  word-spacing:3px;
+  font-family: 'lato';
+  font-weight: 600;
 }
 .adv {
   margin-top: 20px;
 }
-.adv h5 {
+.adv p {
   font-size: "Lato";
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 20px;
-  font-size: "Lato";
+  font-family: "Lato";
+  font-weight: 600;
+  word-spacing: 3px;
+  letter-spacing:2px;
 }
 .features {
   display: flex;
@@ -135,6 +165,9 @@ nav ul li a:hover {
 }
 .recommended-para h4 {
   padding-bottom: 10px;
+  font-family:'Lato';
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .recommended-title {
   width: 120%;
@@ -149,6 +182,8 @@ nav ul li a:hover {
   font-family: "Lato";
   letter-spacing: 5px;
   line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .more-details {
@@ -187,9 +222,15 @@ nav ul li a:hover {
 }
 .parag {
   margin-bottom: 30px;
+  font-family: 'Lato';
+  font-weight: lighter;
 }
 .effects p {
   font-size: 15px;
+  padding: 0 8px 0 8px;
+  word-spacing: 4px;
+  font-family: 'Lato';
+  font-weight: lighter;
 }
 #testimonials {
   height: 60vh;
@@ -220,7 +261,7 @@ nav ul li a:hover {
 #quote1 {
   font-size: 10rem;
   position: absolute;
-  transform: rotate(20deg);
+  /* transform: rotate(10deg); */
   left: 100px;
   top: -50px;
   color: rgba(250, 210, 28, 0.5);
@@ -232,7 +273,7 @@ nav ul li a:hover {
   position: absolute;
   font-size: 10rem;
   color: rgba(250, 210, 28, 0.5);
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
   z-index: -1;
 }
 .testimonials-para {
@@ -244,6 +285,12 @@ nav ul li a:hover {
   margin-top: 40px;
   margin-left: 200px;
   line-height: 22px;
+}
+
+.testimonials-para p {
+  font-family: 'Lato';
+  font-weight: lighter;
+  word-spacing:1px;
 }
 .buttons {
   position: absolute;
