@@ -15,17 +15,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lato"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"
-    />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
-    />
     <title>Home Page</title>
   </head>
   <body>
@@ -33,7 +22,6 @@
       <a>
         <img class="logo" src="logo.png" alt="Logo" />
       </a>
-
       <nav>
         <div class="social-media">
           <li class="fa fa-facebook-f"></li>
@@ -193,47 +181,86 @@
         </div>
       </div>
     </section>
-    <section id="testimonials">
-      <div class="content-testimonials">
-        <i id="quote1" class="fa fa-quote-left"></i>
-        <i id="quote2" class="fa fa-quote-right"></i>
-        <h1>testimonials</h1>
+      <section class="page-wrapper">
+        <i  class="fa fa-quote-left quote1"></i>
+        <i  class="fa fa-quote-right quote2"></i>
+        <div class="post-slider">
+          <h1 class="slider-title">testimonials</h1>
+          <a class="prev">Previus</a>
+          <a class="next">Next</a>
+          <div class="post-wrapper">
+            <div class="post">
+              <div class="post-para">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  facilis perferendis, laborum architecto dicta enim dolorem
+                  asperiores nostrum ipsum nobis et! Perferendis quidem, veniam
+                  tempore exercitationem corporis nobis a rem!
+                </p>
+                <h2>bahrash salamni 1</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+                  delectus quos voluptas voluptates cupiditate odit veritatis. Nemo,
+                  corrupti iste
+                </p>
+                <h2>belenda darwall smith</h2>
+                <p>Lorem ipsum dolor sit</p>
 
-        <div class="testimonials-para">
-          <button class="buttons">Previous</button>
-          <button class="next ">next</button>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-            facilis perferendis, laborum architecto dicta enim dolorem
-            asperiores nostrum ipsum nobis et! Perferendis quidem, veniam
-            tempore exercitationem corporis nobis a rem!
-          </p>
-          <h2>bahrash salamni</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-            delectus quos voluptas voluptates cupiditate odit veritatis. Nemo,
-            corrupti iste
-          </p>
-          <h2>belenda darwall smith</h2>
-          <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          
+            <div class="post">
+              <div class="post-para">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  facilis perferendis, laborum architecto dicta enim dolorem
+                  asperiores nostrum ipsum nobis et! Perferendis quidem, veniam
+                  tempore exercitationem corporis nobis a rem!
+                </p>
+                <h2>bahrash salamni 2</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+                  delectus quos voluptas voluptates cupiditate odit veritatis. Nemo,
+                  corrupti iste
+                </p>
+                <h2>belenda darwall smith</h2>
+                <p>Lorem ipsum dolor sit</p>
+
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-para">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  facilis perferendis, laborum architecto dicta enim dolorem
+                  asperiores nostrum ipsum nobis et! Perferendis quidem, veniam
+                  tempore exercitationem corporis nobis a rem!
+                </p>
+                <h2>bahrash salamni 3</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+                  delectus quos voluptas voluptates cupiditate odit veritatis. Nemo,
+                  corrupti iste
+                </p>
+                <h2>belenda darwall smith</h2>
+                <p>Lorem ipsum dolor sit</p>
+
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     <section id="footer">
       <div class="footer-content">
         <div class="footer-flex">
           <img class="logo" src="logo.png" alt="" />
           <div class="socials">
-            <span>
-              <li class="fa fa-facebook-f"></li>
-            </span>
-            <span>
-              <li class="fa fa-instagram"></li>
-            </span>
+              <li class="fa fa-facebook-f circle-icon"></li>
+              <li class="fa fa-instagram circle-icon"></li>
+       
           </div>
         </div>
         <div class="footer-flex">
-          <!-- <img src="flag-for-kuwait.png" alt="" /> -->
           <h2>Our clinic</h2>
           <p>
             The Elixir Clinic - Dubai The Elixir Clinic- Abu Dhabi FIVE Palm
@@ -241,7 +268,6 @@
           </p>
         </div>
         <div class="footer-flex">
-          <!-- <img src="flag-for-united-kingdom.png" alt="" /> -->
           <h2>Our clinic</h2>
           <p>
             The Elixir Clinic - London Harrods - The Wellness Clinic The Need
@@ -278,5 +304,13 @@
     </section>
 
     <script src="https://player.vimeo.com/api/player.js"></script>
+       <!-- Slick Slider -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="./home.js"></script>
   </body>
 </html>
