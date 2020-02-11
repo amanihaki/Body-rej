@@ -16,26 +16,25 @@ header {
   width: 150px;
   margin-bottom: 10px;
 }
-.DesktopNav {
+nav {
   width: 50%;
   margin-bottom: 10px;
-  display:none;
 }
 
-.DesktopNav ul {
+nav ul {
   display: flex;
   justify-content: space-between;
 }
-.DesktopNav ul li {
+nav ul li {
   list-style: none;
   text-transform: uppercase;
 }
-.DesktopNav ul li a {
+nav ul li a {
   font-weight: 200;
   font-size: 15px;
   font-family: "Lato";
 }
-.DesktopNav ul li a:hover {
+nav ul li a:hover {
   background-color: #fad21c;
   cursor: pointer;
 }
@@ -429,4 +428,3 @@ header {
   line-height: 40px;
   font-size: 12px;
 }
-
