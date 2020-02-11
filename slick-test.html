@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="slick-test.css" />
+</head>
+
+<body>
+
+    <div class="slider">
+        <div>
+            <img src="http://kenwheeler.github.io/slick/img/fonz1.png" />
+        </div>
+        <div>
+            <img src="http://kenwheeler.github.io/slick/img/fonz2.png" />
+        </div>
+        <div>
+            <img src="http://kenwheeler.github.io/slick/img/fonz3.png" />
+        </div>
+        <div>
+            <img src="http://kenwheeler.github.io/slick/img/fonz1.png" />
+        </div>
+        <div>
+            <img src="http://kenwheeler.github.io/slick/img/fonz2.png" />
+        </div>
+        <div>
+            <img src="http://kenwheeler.github.io/slick/img/fonz3.png" />
+        </div>
+
+        
+        
+    </div>
+
+    <div>
+            <button class="buttons">Previous</button>
+            <button class="next ">next</button>
+        </div>
+   
+
+    
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            dots: false,
+   infinite: false,
+   speed: 300,
+   slidesToShow: 2,
+   slidesToScroll: 2,
+   autoplay: true,
+   autoplaySpeed: 5000,
+   arrows:false,
+   
+        });
+
+        $('.buttons').click(function(){
+  $('.slider').slick('slickPrev');
+})
+
+$('.next').click(function(){
+  $('.slider').slick('slickNext');
+})
+    </script>
+</body>
+
+</html>
