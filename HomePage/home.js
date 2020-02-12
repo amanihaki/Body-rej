@@ -6,3 +6,6 @@ $(".post-wrapper").slick({
   nextArrow: $(".next"),
   prevArrow: $(".prev")
 });
+$(".navbar-toggler").click(function() {
+  $(".navbar-collapse").slideToggle();
+});
