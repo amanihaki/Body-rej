@@ -1,0 +1,81 @@
+@import "../modules/variables";
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: $width-vw;
+    
+  }
+  
+  .section-text {
+    font-family:$font-base;
+    text-align: $center;
+    font-weight: bold;
+    list-style: none;
+    width: 200px;
+    position: $position;
+    justify-content: $center;
+   
+  }
+  
+  ul{ 
+    li:nth-child(-n + 4) {
+    border-right: 3px solid #f6f6f6;
+    display: block;
+  }
+}
+  
+  .Pink-Section {
+    background-color: #f6f1d6;
+    height: 600px;
+  }
+  
+  .pink-section-text {
+    font-family: $font-base;
+    width: $widthper;
+    word-spacing: 5px;
+    font-weight: 500;
+    position: $position;
+    top: 60px;
+    text-align: $center;
+  }
+  
+  
+ 
+  
+ 
+  
+  .pink-section-quotes-left{
+      color:#F6E89E;
+      position: $position;
+      left: 41em;
+      top:5em;
+  }
+  
+  .pink-section-quotes-right{
+      color:#F6E89E;
+      position: $position;
+      left: 41em;
+      top:9em;
+  }
+  
+  .pink-section-inner-text{
+      text-align: $center;
+      font-family: $font-base;
+      position: $position;
+      top:90px;
+      
+      
+  }
+  
+  .Pink-Section{
+       img{
+      position: $position;
+      top:250px;
+      right: -250px;
+      
+  }
+}
+  
+  

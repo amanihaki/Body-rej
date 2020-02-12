@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../../images/booking-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
+.container h1 {
+  max-width: 100%;
+  text-align: center; }
+
+.form-group {
+  width: 20%; }
+
+#inputMessage {
+  width: 583px;
+  height: 100px; }
+
+.form-row {
+  width: 100%;
+  margin-left: 0px !important; }
+
+.check {
+  position: relative;
+  top: 20px;
+  background-color: white;
+  height: 60px;
+  left: 5px; }
+
+.form-check {
+  width: 550px;
+  margin: 10px; }
+
+.form-check-input {
+  width: 5px; }
+
+.btn {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  height: 50px; }
+
+.form {
+  width: 590px;
+  position: relative;
+  left: 285px; }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  body {
+    background-image: url(../images/booking-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+    width: 100%; }
+
+  .form {
+    width: 90%;
+    position: relative;
+    left: 10px; }
+
+  .btn {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    height: 50px; }
+
+  #inputMessage {
+    width: 283px;
+    height: 300px; }
+
+  .check-p {
+    position: relative;
+    width: 80%;
+    height: 20%;
+    left: 5px; }
+
+  .check {
+    position: relative;
+    top: 20px;
+    background-color: white;
+    height: 60px;
+    left: 5px;
+    width: 100%; } }
+@media (min-width: 300px) and (max-width: 500px) {
+  body {
+    background-image: url(../images/booking-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: 100%; }
+
+  .form-group {
+    width: 20%; }
+
+  #inputMessage {
+    width: 263px;
+    height: 200px; }
+
+  .form-row {
+    width: 100%;
+    margin-left: 0px !important; }
+
+  .check {
+    position: relative;
+    top: 20px;
+    background-color: white;
+    height: 60px;
+    left: 5px; }
+
+  .check-p {
+    width: 40%;
+    font-size: 13px;
+    line-height: 18px; }
+
+  .form-check {
+    width: 550px;
+    margin: 5px; }
+
+  .form-check-input {
+    width: 5px; }
+
+  .form-check-label {
+    height: 10%; }
+
+  .btn {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    height: 50px; }
+
+  .form {
+    width: 270px;
+    position: relative;
+    left: -5px; } }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-group {
+    width: 40%; }
+
+  #inputMessage {
+    width: 583px;
+    height: 100px; }
+
+  .form-row {
+    width: 100%;
+    margin-left: 0px !important; }
+
+  .check {
+    position: relative;
+    top: 20px;
+    background-color: white;
+    height: 60px;
+    left: 5px; }
+
+  .form-check {
+    width: 550px;
+    margin: 10px; }
+
+  .form-check-input {
+    width: 5px; }
+
+  .btn {
+    position: relative;
+    top: 100px;
+    left: 200px;
+    height: 50px; }
+
+  .form {
+    width: 590px;
+    position: relative;
+    left: 85px; } }
+
+/*# sourceMappingURL=contact.css.map */

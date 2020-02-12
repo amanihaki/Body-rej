@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+.section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw; }
+
+.section-text {
+  font-family: "Lato" sans-serif;
+  text-align: center;
+  font-weight: bold;
+  list-style: none;
+  width: 200px;
+  position: relative;
+  justify-content: center; }
+
+ul li:nth-child(-n + 4) {
+  border-right: 3px solid #f6f6f6;
+  display: block; }
+
+.Pink-Section {
+  background-color: #f6f1d6;
+  height: 600px; }
+
+.pink-section-text {
+  font-family: "Lato" sans-serif;
+  width: 100%;
+  word-spacing: 5px;
+  font-weight: 500;
+  position: relative;
+  top: 60px;
+  text-align: center; }
+
+.pink-section-quotes-left {
+  color: #F6E89E;
+  position: relative;
+  left: 41em;
+  top: 5em; }
+
+.pink-section-quotes-right {
+  color: #F6E89E;
+  position: relative;
+  left: 41em;
+  top: 9em; }
+
+.pink-section-inner-text {
+  text-align: center;
+  font-family: "Lato" sans-serif;
+  position: relative;
+  top: 90px; }
+
+.Pink-Section img {
+  position: relative;
+  top: 250px;
+  right: -250px; }
+
+/*# sourceMappingURL=section.css.map */
