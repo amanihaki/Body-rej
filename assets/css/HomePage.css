@@ -27,16 +27,19 @@ nav ul {
 nav ul li {
   list-style: none;
   text-transform: uppercase;
+  padding: 5px;
 }
 nav ul li a {
   font-weight: 200;
   font-size: 15px;
   font-family: "Lato";
-  padding: 5px;
 }
-nav ul li a:hover {
+nav ul li:hover {
   background-color: #fad21c;
   cursor: pointer;
+}
+nav ul li:nth-child(7) {
+  background-color: #fad21c;
 }
 .social-media {
   display: flex;
@@ -52,14 +55,6 @@ nav ul li a:hover {
   font-family: "Lato";
 }
 
-.BookNow {
-  background-color: #fad21c;
-  padding: 3px;
-}
-
-.BookNow a {
-  font-weight: 500;
-}
 #home-page {
   height: 78vh;
   background-color: #eee;
@@ -93,30 +88,23 @@ nav ul li a:hover {
 }
 .content-title h2 {
   color: #fad21c;
-  font-size: "Lato";
+  font-family: "Lato";
   letter-spacing: 3px;
+  font-weight: 600;
 }
 .content-title h3 {
   font-family: "Lato";
   font-size: 20px;
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 10px;
   font-weight: 700;
   word-spacing: 2px;
 }
 
 .content-title-p {
   font-family: "lato";
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 25px;
   font-weight: lighter;
-}
-
-.content-title h2 {
-  color: #fad21c;
-  font-size: "Lato";
-  letter-spacing: 3px;
-  font-weight: 500;
 }
 
 .content-title h5 {
@@ -142,12 +130,19 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 70px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.features li,
+.recommended-para li {
+  list-style: none;
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 25px;
 }
 .details {
   display: flex;
   align-items: center;
-
   height: 250px;
 }
 .details img {
@@ -172,8 +167,8 @@ nav ul li a:hover {
   width: 70%;
   display: flex;
   flex-direction: column;
-  margin: 60px auto;
-  line-height: 25px;
+  margin: 40px auto;
+  word-wrap: break-word;
 }
 .recommended-para h4 {
   padding-bottom: 10px;
@@ -214,6 +209,7 @@ nav ul li a:hover {
   background-color: white;
   font-size: 16px;
   text-align: center;
+  font-family: "Lato";
 }
 .img-wrap {
   width: 90px;
@@ -223,14 +219,14 @@ nav ul li a:hover {
   border-radius: 50%;
 }
 .effects h4 {
-  padding-bottom: 15px;
   text-transform: uppercase;
+  padding: 10px;
 }
 .img-wrap img {
   margin-top: 30px;
 }
 .ultra {
-  min-width: 220px;
+  max-width: 230px;
   min-height: 230px;
   padding: 10px;
 }
@@ -238,6 +234,7 @@ nav ul li a:hover {
   margin-bottom: 30px;
   font-family: "Lato";
   font-weight: lighter;
+  text-align: justify;
 }
 .effects p {
   font-size: 15px;
@@ -302,21 +299,24 @@ nav ul li a:hover {
 }
 .form2 select {
   width: 290px;
-  height: 25px;
+  height: 30px;
   background-color: white;
   font-family: "Lato";
   border: none;
-  margin-top: 8px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 .email-send input {
-  height: 25px;
+  height: 30px;
   width: 250px;
   border: none;
   font-family: "Lato";
   background-color: white;
   margin-top: 8px;
   padding: 6px;
+}
+.email-send {
+  margin-top: 9px;
 }
 .email-send input::placeholder {
   color: black;
@@ -326,6 +326,7 @@ nav ul li a:hover {
   border: none;
   background-color: #fad21c;
   margin-left: -4px;
+  height: 30px;
 }
 .copyright {
   background-color: black;
@@ -352,9 +353,7 @@ nav ul li a:hover {
 .quote1,
 .quote2 {
   position: absolute;
-
   color: rgba(250, 210, 28, 0.5);
-
   width: 200px;
   height: 300px;
 }
@@ -443,6 +442,29 @@ nav ul li a:hover {
 }
 
 /**Media Quiery */
+@media (max-width: 1303px) {
+  .recommended-para li {
+    font-size: 14px;
+  }
+  .recommended-para {
+    width: 90%;
+  }
+  .recommended img {
+    height: 60px;
+  }
+  #container {
+    height: 330vh;
+  }
+  .flex-res {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 40px auto;
+  }
+  .ultra {
+    margin: 20px;
+  }
+}
 
 @media (max-width: 1150px) {
   .nav-desktop {
