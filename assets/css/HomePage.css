@@ -145,9 +145,9 @@ nav ul li:nth-child(7) {
   align-items: center;
   height: 250px;
 }
-.details img {
+/* .details img {
   height: 100%;
-}
+} */
 .details .recommended {
   height: 100%;
   width: 45%;
@@ -466,7 +466,12 @@ nav ul li:nth-child(7) {
   }
 }
 
-@media (max-width: 1150px) {
+@media screen and (max-width:500px) and (min-width:300px){
+ html{
+   width:100vw;
+ }
+}
+@media screen and  (max-width: 1151px) {
   .nav-desktop {
     display: none;
   }
@@ -501,5 +506,57 @@ nav ul li:nth-child(7) {
   .navbar-collapse ul li a {
     text-decoration: none;
     color: black;
+  }
+
+  .post-slider {
+    position: relative;
+  }
+  
+  .post-slider .post-wrapper {
+    width: 64%;
+    margin: 0px auto;
+    overflow: hidden;
+  }
+  .post-slider .post-wrapper .post {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 0px 10px;
+  }
+  .slider-title {
+    margin: 30px auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lato";
+    position: relative;
+    top: 50px;
+  }
+  .post-slider a {
+    display: none !important;
+    
+  }
+  .post-slider a {
+    display: none !important;
+  }
+  
+  .post-para {
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 22px;
+    margin-top: 50px;
+    margin-left: 55px;
+    background-color: violet;
+  }
+  .post-para h2 {
+    color: #fad21c;
+    margin: 10px 10px;
+  }
+  .post-para p {
+    text-align: justify;
+    padding: 10px;
+    font-family: "Lato";
   }
 }

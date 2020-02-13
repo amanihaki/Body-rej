@@ -1,41 +1,131 @@
 @import "../modules/variables";
 
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../../images/booking-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $height-vh;
+  width:$widthper;
+}
+
+.container{
+    h1 {
+  max-width: 100%;
+  text-align: $center;
+}
+}
+
+.form-group {
+  width: 20%;
+}
+
+#inputMessage {
+  width: 583px;
+  height: 100px;
+}
+
+.form-row {
+  width: $widthper;
+  margin-left: 0px !important;
+}
+
+.check {
+  position: $position;
+  top: 20px;
+  background-color: white;
+  height: 60px;
+  left: 5px;
+}
+
+.form-check {
+  width: 550px;
+  margin: 10px;
+}
+
+.form-check-input {
+  width: 5px;
+}
+
+.btn {
+  position: $position;
+  top: 100px;
+  left: 200px;
+  height: 50px;
+}
+
+.form {
+  width: 590px;
+  position:$position;
+  left: 285px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (min-width: 501px) and (max-width: 800px) {
   body {
     background-image: url(../../images/booking-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: $height-vh;
+    height: 180vh;
     width: $widthper;
   }
-  
-  .container  {
-    h1{
-    max-width: 100%;
-    text-align: $center;
-    }
+  .form {
+    width: 90%;
+    position: $position;
+    left: 10px;
   }
-  
+  .btn {
+    position: $position;
+    top: 100px;
+    left: 10px;
+    height: 50px;
+  }
+  #inputMessage {
+    width: 283px;
+    height: 300px;
+  }
+  .check-p {
+    position: $position;
+    width: 80%;
+    height: 20%;
+    left: 5px;
+  }
+  .check {
+    position: $position;
+    top: 20px;
+    background-color: white;
+    height: 60px;
+    left: 5px;
+    width: $widthper;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  body {
+    background-image: url(../../images/booking-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: $widthper;
+  }
   .form-group {
     width: 20%;
   }
-  
   #inputMessage {
-    width: 583px;
-    height: 100px;
+    width: 263px;
+    height: 200px;
   }
-  
   .form-row {
-    width: 100%;
+    width: $widthper;
     margin-left: 0px !important;
   }
-  
   .check {
     position: $position;
     top: 20px;
@@ -43,198 +133,71 @@
     height: 60px;
     left: 5px;
   }
-  
+  .check-p {
+    width: 280px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .form-check {
+    width: 500px;
+    margin: 5px;
+  }
+  .form-check-input {
+    width: 5px;
+  }
+  .form-check-label {
+    height: 10%;
+  }
+  .btn {
+    position: $position;
+    top: 100px;
+    left: 30px;
+    height: 50px;
+  }
+  .form {
+    width: 270px;
+    position: $position;
+    left: -5px;
+  }
+}
 
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-group {
+    width: 40%;
+  }
+  #inputMessage {
+    width: 583px;
+    height: 100px;
+  }
+  .form-row {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .check {
+    position: $position;
+    top: 20px;
+    background-color: white;
+    height: 60px;
+    left: 5px;
+  }
   .form-check {
     width: 550px;
     margin: 10px;
   }
-  
   .form-check-input {
     width: 5px;
   }
-  
   .btn {
-    position: $position;
+    position:$position;
     top: 100px;
     left: 200px;
     height: 50px;
   }
-  
   .form {
     width: 590px;
     position: $position;
-    left: 285px;
+    left: 85px;
   }
-  
-  /* Extra small devices (portrait phones, less than 576px) */
-  @media screen and (min-width: 501px) and (max-width:800px){ 
-    
-    body {
-      background-image: url(../images/booking-bg.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 180vh;
-      width: $widthper;
-    }
-  
-    .form {
-      width: 90%;
-      position: $position;
-      left:10px;
-    }
-  
-    .btn {
-      position: $position;
-      top: 100px;
-      left: 10px;
-      height: 50px;
-    }
-  
-    #inputMessage {
-      width: 283px;
-      height: 300px;
-    }
-  
-    .check-p {
-      position: $position;
-      width:80%;
-      height:20%;
-      left:5px;
-    }
-  
-    .check {
-      position: $position;
-      top: 20px;
-      background-color: white;
-      height: 60px;
-      left: 5px;
-      width:$widthper
-    }
-  }
-  
-  
-  @media (min-width:300px) and (max-width: 500px) { 
-  
-    body {
-      background-image: url(../images/booking-bg.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 150vh;
-      width: $widthper;
-    }
-    
-    .form-group {
-      width: 20%;
-    }
-    
-    #inputMessage {
-      width: 263px;
-      height: 200px;
-    }
-    
-    .form-row {
-      width: $widthper;
-      margin-left: 0px !important;
-     
-    }
-    
-    .check {
-      position: $position;
-      top: 20px;
-      background-color: white;
-      height: 60px;
-      left: 5px;
-    }
-    
-    .check-p{
-      width:40%;
-      font-size:13px;
-      line-height:18px;
-    }
-   
-    
-    .form-check {
-      width: 550px;
-      margin: 5px;
-    }
-    
-    .form-check-input {
-      width: 5px;
-     
-    }
-  
-    .form-check-label{
-      height:10%;
-  
-     
-    }
-    
-    .btn {
-      position: $position;
-      top: 100px;
-      left: 30px;
-      height: 50px;
-    }
-    
-    .form {
-      width: 270px;
-      position: $position;
-      left: -5px;
-    }
-  
-   
-  
-  }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991px) { 
-    .form-group {
-      width: 40%;
-    }
-    
-    #inputMessage {
-      width: 583px;
-      height: 100px;
-    }
-    
-    .form-row {
-      width: $widthper;
-      margin-left: 0px !important;
-    }
-    
-    .check {
-      position: $position;
-      top: 20px;
-      background-color: white;
-      height: 60px;
-      left: 5px;
-    }
-    
-   
-    
-    .form-check {
-      width: 550px;
-      margin: 10px;
-     
-    }
-    
-    .form-check-input {
-      width: 5px;
-    }
-    
-    .btn {
-      position: $position;
-      top: 100px;
-      left: 200px;
-      height: 50px;
-    }
-    
-    .form {
-      width: 590px;
-      position: $position;
-      left: 85px;
-    }
-  }
-  
- 
+}
+/*# sourceMappingURL=contact.css.map */
