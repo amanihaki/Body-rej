@@ -148,9 +148,9 @@ nav ul li:nth-child(7) {
   align-items: center;
   height: 250px;
 }
-.details img {
+/* .details img {
   height: 100%;
-}
+} */
 .details .recommended {
   height: 100%;
   width: 45%;
@@ -473,10 +473,13 @@ nav ul li:nth-child(7) {
     left: 150px;
   }
 }
+
 @media (max-width: 1150px) {
   .slick-arrow {
     display: none;
   }
+}
+@media screen and (max-width: 1151px) {
   .nav-desktop {
     display: none;
   }
@@ -512,6 +515,7 @@ nav ul li:nth-child(7) {
     text-decoration: none;
     color: black;
   }
+
   .post-slider .post-wrapper,
   .details > img {
     width: 60%;
@@ -658,12 +662,12 @@ nav ul li:nth-child(7) {
 }
 @media (max-width: 500px) {
   #container {
-    height: 760vh;
+    height: 650vh;
   }
   .details {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 70vh;
   }
   .details .recommended {
     width: 100%;

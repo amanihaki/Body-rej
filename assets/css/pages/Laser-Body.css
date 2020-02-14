@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+html {
+  width: 100%;
+}
+
+.laser-section h3 {
+  font-family: "Lato" sans-serif;
+  font-weight: 600;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+}
+
+.gallery {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image img {
+  width: 300px;
+  padding-left: 40px;
+}
+
+.image p {
+  width: 400px;
+  padding-left: 40px;
+}
+/*# sourceMappingURL=Laser-Body.css.map */
