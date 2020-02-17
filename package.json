@@ -18,6 +18,9 @@
   "homepage": "https://github.com/amanihaki/Body-rej#readme",
   "dependencies": {
     "@babel/cli": "^7.8.4",
-    "slick-carousel": "^1.8.1"
+    "jquery": "^3.4.1",
+    "slick-carousel": "^1.8.1",
+    "webpack": "^4.41.6",
+    "webpack-stream": "^5.2.1"
   }
 }
