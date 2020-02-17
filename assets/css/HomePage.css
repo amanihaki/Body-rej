@@ -148,9 +148,9 @@ nav ul li:nth-child(7) {
   align-items: center;
   height: 250px;
 }
-/* .details img {
+.details img {
   height: 100%;
-} */
+}
 .details .recommended {
   height: 100%;
   width: 45%;
