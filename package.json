@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,17 @@
   "homepage": "https://github.com/amanihaki/Body-rej#readme",
   "dependencies": {
     "@babel/cli": "^7.8.4",
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
     "slick-carousel": "^1.8.1",
     "webpack": "^4.41.6",
+    "webpack-dev-server": "^3.10.3",
     "webpack-stream": "^5.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3"
   }
 }
